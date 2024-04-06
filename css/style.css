@@ -6,10 +6,12 @@ html {
 
 body {
     width: 100%;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1206%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1207%26quot%3b)'%3e%3c/rect%3e%3cpath d='M -300.11251569151165%2c157 C -242.51%2c207 -127.31%2c391 -12.112515691511625%2c407 C 103.09%2c423 160.69%2c232.4 275.88748430848835%2c237 C 391.09%2c241.6 448.69%2c433.8 563.8874843084884%2c430 C 679.09%2c426.2 736.69%2c223.2 851.8874843084884%2c218 C 967.09%2c212.8 1024.69%2c413.4 1139.8874843084884%2c404 C 1255.09%2c394.6 1367.86%2c180.8 1427.8874843084884%2c171 C 1487.91%2c161.2 1437.58%2c318.2 1440%2c355' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -9.63386895454886%2c414 C 47.97%2c355 163.17%2c143.8 278.36613104545114%2c119 C 393.57%2c94.2 451.17%2c277.2 566.3661310454511%2c290 C 681.57%2c302.8 739.17%2c161.4 854.3661310454511%2c183 C 969.57%2c204.6 1027.17%2c382.4 1142.366131045451%2c398 C 1257.57%2c413.6 1315.17%2c280.4 1430.366131045451%2c261 C 1545.57%2c241.6 1716.44%2c311 1718.366131045451%2c301 C 1720.29%2c291 1495.67%2c229 1440%2c211' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -287.54251780370254%2c464 C -229.94%2c396.4 -114.74%2c136 0.45748219629745535%2c126 C 115.66%2c116 173.26%2c384.2 288.45748219629746%2c414 C 403.66%2c443.8 461.26%2c290.2 576.4574821962974%2c275 C 691.66%2c259.8 749.26%2c343.4 864.4574821962974%2c338 C 979.66%2c332.6 1037.26%2c219.8 1152.4574821962974%2c248 C 1267.66%2c276.2 1382.95%2c491.4 1440.4574821962974%2c479 C 1497.97%2c466.6 1440.09%2c244.6 1440%2c186' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -386.2060547133549%2c385 C -328.61%2c322 -213.41%2c52 -98.20605471335489%2c70 C 16.99%2c88 74.59%2c438.2 189.7939452866451%2c475 C 304.99%2c511.8 362.59%2c253 477.7939452866451%2c254 C 592.99%2c255 650.59%2c498.4 765.7939452866451%2c480 C 880.99%2c461.6 938.59%2c194 1053.793945286645%2c162 C 1168.99%2c130 1264.55%2c328.6 1341.793945286645%2c320 C 1419.04%2c311.4 1420.36%2c159.2 1440%2c119' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1206'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1207'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(158%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-image: url("../images/abstract-digital-grid-black-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    background-attachment: fixed;
+    color: antiquewhite;
+    margin: 0;
 }
 
 header {
@@ -20,13 +22,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0d3765;
+    background-color: #387373;
     margin: 0;
     z-index: 1000;
 }
 
 .logo-container {
-    background-color: #0d3765;
+    background-color: #387373;
     padding: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -61,14 +63,15 @@ li a {
 }
 
 li a:hover {
-    background-color: #0d3765;
+    background-color: #93BFB7;
 }
 
 h1, h2 {
-    padding-top: 5rem;
+    padding-top: 1rem;
     width: 100%;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 h3 {
@@ -77,8 +80,9 @@ h3 {
 }
 
 p {
-    font-size: 1.30rem;
+    font-size: 1.35rem;
     padding-bottom: 5rem;
+    padding-top: 2rem;
 }
 
 .container {
@@ -87,10 +91,11 @@ p {
     align-content: center;
     text-align: center;
     width: 80%;
-    margin: 70px auto 5rem auto;
+    margin: 0 auto;
+    padding-top: 2rem;
 }
 
-footer {
+.contact-container {
     justify-content: space-evenly;
 }
 
@@ -108,7 +113,7 @@ footer {
 
 img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 section article {
@@ -119,7 +124,7 @@ section article {
 }
 
 article {
-    background-color: #0d3765;
+    background-color: #2D3E40;
 
 }
 
